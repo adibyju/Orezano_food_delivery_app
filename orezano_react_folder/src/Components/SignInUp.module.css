@@ -63,10 +63,10 @@ input {
   float: left;
 }
 
-.restDel {
+/* .restDel {
   max-width: 330px;
   width: 100%;
-}
+} */
 
 .forms-container {
   position: absolute;
@@ -189,7 +189,7 @@ form.sign-in-form {
   background-color: #5995fd;
   border: none;
   outline: none;
-  height: 49px;
+  height: 40px;
   border-radius: 49px;
   color: #fff;
   text-transform: uppercase;
@@ -322,6 +322,12 @@ form.sign-in-form {
   pointer-events: all;
 }
 
+@media (max-width: 1000px) and (min-width: 870px) {
+  .panel .content {
+    margin-bottom: 150px;
+  }
+}
+
 @media (max-width: 870px) {
   .container {
     min-height: 800px;
@@ -420,8 +426,19 @@ form.sign-in-form {
   }
 
   .container.sign-up-mode .signin-signup {
-    top: 5%;
+    top: 0.2%;
     transform: translate(-50%, 0);
+  }
+
+  .logo2 {
+    width: 270px;
+    margin-bottom: 0px;
+  }
+
+  .title {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 0px;
   }
 }
 
@@ -448,5 +465,16 @@ form.sign-in-form {
   .container.sign-up-mode:before {
     bottom: 28%;
     left: 50%;
+  }
+
+  .logo2 {
+    width: 270px;
+    margin-bottom: 0px;
+  }
+
+  .title {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 0px;
   }
 }

@@ -32,7 +32,11 @@ const SignInUp = () => {
             </div>
             <div className={SIUCSS['right-align']}><a href="#" className={SIUCSS.aGoogle}>Forgot password?</a></div>
             <input type="submit" value="Login" className={`${SIUCSS.btn} ${SIUCSS.solid}`} />
-            <p className={SIUCSS['social-text']}>Or sign in with <a href="#" className={SIUCSS.aGoogle}>Google</a></p>
+            <p className={SIUCSS['social-text']}>Or sign in with <a href="#" className={SIUCSS.aGoogle}>Google</a></p>            
+            {/* <div className={SIUCSS.restDel}>              
+              <button className={`${SIUCSS.btn} ${SIUCSS['btn-left']}`}>Restaurateur?</button>
+              <button className={`${SIUCSS.btn} ${SIUCSS['btn-right']}`}>Delivery person?</button>
+            </div> */}
           </form>
           <form action="#" className={SIUCSS['sign-up-form']}>
           <img src={logo} class={SIUCSS.logo2} alt="" />
@@ -58,10 +62,6 @@ const SignInUp = () => {
               <input type="password" placeholder="Password" />
             </div>
             <input type="submit" className={SIUCSS.btn} value="Sign up" />
-            <div className={SIUCSS.restDel}>              
-              <button className={`${SIUCSS.btn} ${SIUCSS['btn-left']}`}>Restaurateur?</button>
-              <button className={`${SIUCSS.btn} ${SIUCSS['btn-right']}`}>Delivery person?</button>
-            </div>
             <p className={SIUCSS['social-text']}>Or Sign up with <a href="#" className={SIUCSS.aGoogle}>Google</a></p>            
           </form>
         </div>
