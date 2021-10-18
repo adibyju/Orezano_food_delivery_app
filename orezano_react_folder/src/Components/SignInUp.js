@@ -31,7 +31,7 @@ const SignInUp = () => {
               <input type="password" placeholder="Password" />
             </div>
             <div className={SIUCSS['right-align']}><a href="#" className={SIUCSS.aGoogle}>Forgot password?</a></div>
-            <input type="submit" value="Login" className={`${SIUCSS.btn} ${SIUCSS.solid}`} />
+            <input type="submit" value="Submit" className={`${SIUCSS.btn} ${SIUCSS.solid}`} />
             <p className={SIUCSS['social-text']}>Or sign in with <a href="#" className={SIUCSS.aGoogle}>Google</a></p>            
             {/* <div className={SIUCSS.restDel}>              
               <button className={`${SIUCSS.btn} ${SIUCSS['btn-left']}`}>Restaurateur?</button>
@@ -61,7 +61,7 @@ const SignInUp = () => {
               <i className="fas fa-lock"></i>
               <input type="password" placeholder="Password" />
             </div>
-            <input type="submit" className={SIUCSS.btn} value="Sign up" />
+            <input type="submit" className={SIUCSS.btn} value="Submit" />
             <p className={SIUCSS['social-text']}>Or Sign up with <a href="#" className={SIUCSS.aGoogle}>Google</a></p>            
           </form>
         </div>
