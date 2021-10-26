@@ -2,7 +2,7 @@ import {useRef} from 'react'
 import SIUCSS from './SignInUp.module.css' // SignInUp CSS
 // import logo from '../logo.svg';
 // import register from '../register.svg';
-import logo from '../logo.png';
+import logo from '../Images/logo.png';
 
 const SignInUp = () => {
     const Container = useRef(null);
