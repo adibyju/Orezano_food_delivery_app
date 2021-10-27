@@ -1,0 +1,27 @@
+.cartCard {
+  width: 100%;
+  justify-content: center;
+}
+
+.container {
+  background-color: aliceblue;
+  width: calc((100% - 8em) / 2);
+  min-width: min(600px, 100vw);
+  border-bottom: 1px solid rgb(211, 211, 211);
+  padding: 15px 15px;
+  margin: 0 auto;
+}
+
+.dishDesc {
+  display: inline;
+  margin-right: 10px;
+}
+
+.type {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.price {
+  text-align: right;
+}
