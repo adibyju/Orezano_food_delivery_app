@@ -37,6 +37,66 @@ input {
   margin-bottom: 20px;
 }
 
+.detailRowDiv {
+  width: 100%;
+  text-align: center;
+}
+
+.detailsDiv {
+  padding: 15px 15px;
+  width: 100%;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+  background-color: rgba(231, 231, 231, 0.438);
+}
+
+.detailRow {
+  border: none;
+  border-bottom: 1px solid rgb(131, 131, 131);
+  width: 18rem;
+}
+
+.chargesContainer {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.charges {
+  width: calc((100% - 8em) / 2);
+  min-width: min(600px, 100vw);
+  margin: 0 auto;
+}
+
+.chargesDiv {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-bottom: 1px solid rgb(211, 211, 211);
+  background-color: aliceblue;
+}
+
+.floatLeft {
+  padding: 10px 15px;
+  text-align: left;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.floatRight {
+  padding: 10px 15px;
+  text-align: right;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.chargesDivBold {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 .orderDiv {
   width: 100%;
   text-align: center;
@@ -49,14 +109,14 @@ input {
   width: 18rem;
   padding: 1.5em auto;
   margin: 1em auto;
-  background-color: rgb(216, 111, 36);
+  background-color: rgb(255, 129, 40);
   border: none;
   border-radius: 10px;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .placeOrder:hover {
-  background-color: rgb(218, 134, 75);
+  background-color: rgb(255, 161, 94);
 }
 
 .container {
