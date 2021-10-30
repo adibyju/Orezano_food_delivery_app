@@ -6,20 +6,21 @@ const YourCart = () => {
         <div>
             <div className={`justify-content-center ${YCCSS.title}`}>
                 <h2 className={YCCSS.heading}>Your Cart</h2>
-                <hr className={YCCSS.sep}/>
+                <hr className={YCCSS.sep} />
             </div>
 
             <div className={YCCSS.modOfOrd}>Mode of order : Delivery</div>
 
-            <YourCartCard/>
-            <YourCartCard/>
+            <YourCartCard />
+            <YourCartCard />
+            <YourCartCard />
             {/* <YourCartCard/> */}
 
             <div className={YCCSS.detailsDiv}>
-                <h3>Your Details</h3> 
+                <h3>Your Details</h3>
                 <div className={YCCSS.detailRowDiv}><input type="text" placeholder="Adi" className={YCCSS.detailRow} /></div>
-                <div className={YCCSS.detailRowDiv}><input pattern="[0-9]{10}" placeholder="1234567890" className={YCCSS.detailRow}/></div>
-                <div className={YCCSS.detailRowDiv}><input type="text" placeholder="H9, IIT Bombay" className={YCCSS.detailRow}/></div>              
+                <div className={YCCSS.detailRowDiv}><input pattern="[0-9]{10}" placeholder="1234567890" className={YCCSS.detailRow} /></div>
+                <div className={YCCSS.detailRowDiv}><input type="text" placeholder="H9, IIT Bombay" className={YCCSS.detailRow} /></div>
 
             </div>
 
@@ -27,24 +28,24 @@ const YourCart = () => {
                 <div className={YCCSS.charges}>
                     <div className={YCCSS.chargesDiv}>
                         <div className={YCCSS.floatLeft}>Item Total</div>
-                        <div className={YCCSS.floatRight}><i className="fa fa-inr" aria-hidden="true"/>159.00</div>
+                        <div className={YCCSS.floatRight}><i className="fa fa-inr" aria-hidden="true" />159.00</div>
                     </div>
                     <div className={YCCSS.chargesDiv}>
                         <div className={YCCSS.floatLeft}>Packaging charges</div>
-                        <div className={YCCSS.floatRight}><i className="fa fa-inr" aria-hidden="true"/>62.95</div>
+                        <div className={YCCSS.floatRight}><i className="fa fa-inr" aria-hidden="true" />62.95</div>
                     </div>
                     <div className={YCCSS.chargesDiv}>
                         <div className={YCCSS.floatLeft}>Taxes and charges</div>
-                        <div className={YCCSS.floatRight}><i className="fa fa-inr" aria-hidden="true"/>0.00</div>
+                        <div className={YCCSS.floatRight}><i className="fa fa-inr" aria-hidden="true" />0.00</div>
                     </div>
                     <div className={`${YCCSS.chargesDivBold} ${YCCSS.chargesDiv}`}>
                         <div className={YCCSS.floatLeft}>Grand Total</div>
-                        <div className={YCCSS.floatRight}><i className="fa fa-inr" aria-hidden="true"/>222.00</div>
-                    </div>               
-                    
+                        <div className={YCCSS.floatRight}><i className="fa fa-inr" aria-hidden="true" />222.00</div>
+                    </div>
+
                 </div>
             </div>
-            
+
             <div className={YCCSS.orderDiv}>
                 <button className={YCCSS.placeOrder}>
                     <div className={YCCSS.container}>
