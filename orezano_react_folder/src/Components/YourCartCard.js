@@ -1,32 +1,26 @@
-// import { useRef } from 'react'
+import { useRef } from 'react'
 // import ReactDOM from 'react-dom';
 import YCCCSS from './YourCartCard.module.css'
 import nonVeg from '../Images/nonvegsymbol.png';
 
 const YourCartCard = () => {
 
-    // var countNum = 1;
-    // const CountInput = useRef(null);
-    // // const Count = ReactDOM.findDOMNode("count");
-    // // var countEl = document.getElementById(YCCCSS.count);
-    // // const signUp = () => {
-    // //     Container.current.classList.add(SIUCSS['sign-up-mode']);
-    // // }
-    // const plus = () => {
-    //     if (countNum < 20) {
-    //         countNum = countNum + 1;
-    //         CountInput.current.value = countNum;
-    //         console.log(countNum);
-    //     }
-    // }
+    var countNum = 1;
+    const CountInput = useRef(null);
 
-    // const minus = () => {
-    //     if (countNum > 1) {
-    //         countNum = countNum - 1;
-    //         CountInput.current.value = countNum;
-    //         console.log(countNum);
-    //     }
-    // }
+    function plus() {
+        if (countNum < 20) {
+            countNum = countNum + 1;
+            CountInput.current.value = countNum;
+        }
+    }
+
+    function minus() {
+        if (countNum > 0) {
+            countNum = countNum - 1;
+            CountInput.current.value = countNum;
+        }
+    }
 
     return (
         <div className={YCCCSS.cartCard}>
@@ -38,9 +32,9 @@ const YourCartCard = () => {
                     </div>
                     <div className={YCCCSS.counterDiv}>
                         <div id={YCCCSS.counter}>
-                            <input type="button" value="-" id={YCCCSS.minus} />
-                            <input type="text" size="25" value="1" min="0" max="20" id={YCCCSS.count} />
-                            <input type="button" value="+" id={YCCCSS.plus} />
+                            <input type="button" value="-" id={YCCCSS.minus} onClick={minus} />
+                            <input type="text" size="25" value="1" min="0" max="20" id={YCCCSS.count} ref={CountInput} />
+                            <input type="button" value="+" id={YCCCSS.plus} onClick={plus} />
                         </div>
                     </div>
                 </div>
