@@ -18,7 +18,7 @@ const SignInUp = () => {
 
   return (
     <>
-      {/* <LandingPage /> */}
+      <LandingPage />
       <div className={SIUCSS.container} ref={Container}>
         <div className={SIUCSS['forms-container']}>
           <div className={SIUCSS['signin-signup']}>
