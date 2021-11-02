@@ -9,7 +9,7 @@ const YourCart = () => {
                 <hr className={YCCSS.sep} />
             </div>
 
-            <div className={YCCSS.modOfOrd}>Mode of order : Delivery</div>
+            <div className={YCCSS.modOfOrd}><span className={YCCSS.modOfOrdSpan}>Delivery</span></div>
 
             <YourCartCard />
             <YourCartCard />
@@ -17,7 +17,7 @@ const YourCart = () => {
             {/* <YourCartCard/> */}
 
             <div className={YCCSS.detailsDiv}>
-                <h3>Your Details</h3>
+                <h4>Your Details</h4>
                 <div className={YCCSS.detailRowDiv}><input type="text" placeholder="Adi" className={YCCSS.detailRow} /></div>
                 <div className={YCCSS.detailRowDiv}><input pattern="[0-9]{10}" placeholder="1234567890" className={YCCSS.detailRow} /></div>
                 <div className={YCCSS.detailRowDiv}><input type="text" placeholder="H9, IIT Bombay" className={YCCSS.detailRow} /></div>
