@@ -41,6 +41,7 @@ input {
 .modOfOrdSpan {
   padding: 2px 4px;;
   border: 2px solid rgb(255, 129, 40);
+  border-radius: 5px;
 }
 
 .detailRowDiv {
