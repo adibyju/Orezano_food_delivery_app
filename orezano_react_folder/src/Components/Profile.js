@@ -8,7 +8,7 @@ const Profile = () => {
                 <img className={PCSS.profImage} src={profileimage} alt="Profile image" />
                 <div className={PCSS.details}>
                     <div className={PCSS.details1}>
-                        Aditya Byju
+                       Aditya Byju
                     </div>
                     <div className={PCSS.details2}>
                         adi@hotmail.com
@@ -20,6 +20,9 @@ const Profile = () => {
             </div>
             <div className={PCSS.addressContainer}>
                 <b>Address:</b> H9, IIT Bombay, Powai, Mumbai
+            </div>
+            <div className={PCSS.editProfileContainer}>
+                <a href="#">Edit profile</a>
             </div>
             <div className={PCSS.resetPassContainer}>
                 <a href="#">Change password</a>
