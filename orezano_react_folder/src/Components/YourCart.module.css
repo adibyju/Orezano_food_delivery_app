@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
 
 body,
 input {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .title {
@@ -28,7 +28,7 @@ input {
 .sep {
   display: inline-block;
   width: calc((100% - 8em) / 2);
-  min-width: min(600px, 100vw);
+  min-width: min(600px, 100%);
 }
 
 .modOfOrd {
@@ -39,7 +39,7 @@ input {
 }
 
 .modOfOrdSpan {
-  padding: 2px 4px;;
+  padding: 2px 4px;
   border: 2px solid rgb(255, 129, 40);
   border-radius: 5px;
 }
@@ -74,7 +74,7 @@ input:focus {
 
 .charges {
   width: calc((100% - 8em) / 2);
-  min-width: min(600px, 100vw);
+  min-width: min(600px, 100%);
   margin: 0 auto;
 }
 

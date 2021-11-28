@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
 
 body,
 input {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .cartCard {
@@ -19,7 +19,7 @@ input {
 .container {
   background-color: aliceblue;
   width: calc((100% - 8em) / 2);
-  min-width: min(600px, 100vw);
+  min-width: min(600px, 100%);
   border-bottom: 1px solid rgb(211, 211, 211);
   padding: 15px 25px;
   margin: 0 auto;
@@ -59,17 +59,18 @@ input {
 #counter {
   border-radius: 5px;
   display: inline-block;
-} 
+}
 
 #count {
   width: 20px;
   text-align: center;
-  border: none;  
+  border: none;
   border-top: 2px solid rgb(255, 129, 40);
   border-bottom: 2px solid rgb(255, 129, 40);
 }
 
-#minus, #plus {
+#minus,
+#plus {
   background: rgb(255, 129, 40);
   color: white;
   text-decoration: none;
@@ -79,7 +80,8 @@ input {
   width: 20px;
 }
 
-#minus:hover, #plus:hover {
+#minus:hover,
+#plus:hover {
   background: rgb(255, 161, 94);
 }
 

@@ -21,7 +21,7 @@ input {
   grid-template-columns: 100px 1fr;
   grid-template-rows: 1fr;
   width: calc((100% - 8em) / 2);
-  min-width: min(600px, 100vw);
+  min-width: min(600px, 100%);
   margin: 0 auto;
   position: relative;
   margin-bottom: 10px;
@@ -68,7 +68,7 @@ input {
 
 .phNoContainer {
   width: calc((100% - 8em) / 2);
-  min-width: min(600px, 100vw);
+  min-width: min(600px, 100%);
   margin: 0 auto;
   padding: 10px;
   overflow-wrap: break-word;
@@ -76,7 +76,7 @@ input {
 
 .addressContainer {
   width: calc((100% - 8em) / 2);
-  min-width: min(600px, 100vw);
+  min-width: min(600px, 100%);
   margin: 0 auto;
   padding: 10px;
   overflow-wrap: break-word;
@@ -84,7 +84,7 @@ input {
 
 .editProfileContainer {
   width: calc((100% - 8em) / 2);
-  min-width: min(600px, 100vw);
+  min-width: min(600px, 100%);
   margin: 0 auto;
   padding: 10px;
   text-align: center;
@@ -106,7 +106,7 @@ input {
 
 .resetPassContainer {
   width: calc((100% - 8em) / 2);
-  min-width: min(600px, 100vw);
+  min-width: min(600px, 100%);
   margin: 0 auto;
   padding: 10px;
   text-align: center;

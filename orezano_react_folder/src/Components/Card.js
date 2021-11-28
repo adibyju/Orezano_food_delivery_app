@@ -13,7 +13,7 @@ const Card = () => {
     }
 
     return (
-        <div>
+        <div className={CCSS.container}>
             <div className={`card mb-3 ${CCSS.card}`}>
                 <div className="row g-0 ">
                     <div className="col-md-4">
