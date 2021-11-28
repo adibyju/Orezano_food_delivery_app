@@ -8,10 +8,10 @@ import Profile from './Components/Profile'
 function App() {
   return (
     <div className="App">
-      {/* <SignInUp /> */}
-      {/* <OrderSum /> */}
+      <SignInUp /> 
+      <OrderSum />
       <Profile />
-      {/* <YourCart /> */}
+      <YourCart /> 
     </div>
   );
 }
