@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
 
 body,
 input {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -18,6 +18,15 @@ input {
   background-color: #fff;
   min-height: 100vh;
   overflow: hidden;
+}
+
+.appName {
+  width: 270px;
+  margin-bottom: 30px;
+  color: #ff8128;
+  font-weight: bolder;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .logo1 {
@@ -335,12 +344,12 @@ form.sign-in-form {
     min-height: 800px;
     height: 100vh;
   }
-  
+
   .signin-signup {
     width: 100%;
     top: 95%;
     /* change here */
-    transform: translate(-50%, -130%); 
+    transform: translate(-50%, -130%);
     transition: 1s 0.8s ease-in-out;
   }
 
@@ -475,7 +484,6 @@ form.sign-in-form {
     font-size: 1rem;
     margin-bottom: 0;
   }
-  
 }
 
 @media (max-width: 570px) {

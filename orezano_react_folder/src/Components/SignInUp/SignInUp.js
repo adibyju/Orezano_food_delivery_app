@@ -23,7 +23,8 @@ const SignInUp = () => {
         <div className={SIUCSS['forms-container']}>
           <div className={SIUCSS['signin-signup']}>
             <form action="#" className={SIUCSS['sign-in-form']}>
-              <img src={logo} class={SIUCSS.logo1} alt="" />
+              <h1 className={SIUCSS.appName}>OrezanO</h1>
+              {/* <img src={logo} class={SIUCSS.logo1} alt="" /> */}
               <h2 className={SIUCSS.title}>Sign in</h2>
               <div className={SIUCSS['input-field']}>
                 <i className="fas fa-user"></i>
@@ -42,7 +43,8 @@ const SignInUp = () => {
               </div> */}
             </form>
             <form action="#" className={SIUCSS['sign-up-form']}>
-              <img src={logo} class={SIUCSS.logo2} alt="" />
+            <h1 className={SIUCSS.appName}>OrezanO</h1>
+              {/* <img src={logo} class={SIUCSS.logo2} alt="" /> */}
               <h2 className={SIUCSS.title}>Sign up</h2>
               {/* <div className={SIUCSS['input-field']}>
               <i className="fas fa-user"></i>
