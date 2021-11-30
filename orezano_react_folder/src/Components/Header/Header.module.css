@@ -13,61 +13,102 @@ input {
 
 .headerDiv {
   background-color: #5995fd;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+}
+
+.logoContainer {
+  display: inline-block;
+  grid-column: 1;
+  text-align: center;
 }
 
 .logo {
-  width: 4rem;
+  width: 8vh;
+  min-width: 50px;
   padding: 5px;
+}
+
+.menuContainer {
+  display: inline-block;
+  grid-column: 3;
+  text-align: center;
 }
 
 .menu {
-  width: 4rem;
+  width: 8vh;
   padding: 5px;
+  min-width: 50px;
 }
 
-.searchBox {
+.searchContainer {
+  grid-column: 2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputField {
+  display: inline-block;
   width: calc(100%-8rem);
-  border: none;
-  border: 3px solid #ff8128;
+  border: 2px solid #ff8128;
+  background-color: white;
+  padding: 3px;
   border-radius: 16px;
 }
 
-.input-field {
-  /* max-width: 380px; */
-  max-width: 276px;
-  width: 100%;
-  background-color: #f0f0f0;
-  margin: 10px 0;
-  /* height: 55px; */
-  height: 40px;
-  border-radius: 55px;
-  display: grid;
-  grid-template-columns: 15% 85%;
-  padding: 0 0.4rem;
-  position: relative;
-  border: 3px solid #ff8128;
-}
-
-.input-field i {
-  text-align: center;
-  /* line-height: 55px; */
-  line-height: 40px;
-  color: #acacac;
-  transition: 0.5s;
-  font-size: 1.1rem;
-}
-
-.input-field input {
-  background: none;
-  outline: none;
+.searchBox {
   border: none;
-  line-height: 1;
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: #333;
+  border-radius: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 45vw;
 }
 
-.input-field input::placeholder {
-  color: #aaa;
-  font-weight: 500;
+.searchIcon {
+  padding: 3px;
+  color: #5995fd;
+}
+
+@media (max-width: 600px) {
+  .inputField {
+    width: calc(100%-8rem);
+  }
+
+  .searchBox {
+    border: none;
+    border-radius: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 60vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .inputField {
+    width: calc(100%-8rem);
+  }
+
+  .searchBox {
+    border: none;
+    border-radius: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 60vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .inputField {
+    width: calc(100%-8rem);
+  }
+
+  .searchBox {
+    border: none;
+    border-radius: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 55vw;
+  }
 }
