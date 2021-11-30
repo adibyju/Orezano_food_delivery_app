@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input {
+  font-family: "Montserrat", sans-serif;
+}
+
+.mainDiv1 {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.mainDiv1 h1 {
+  color: #ff8128;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.mainDiv2 {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.mainDiv3 {
+  padding-top: 1rem;
+  text-align: center;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.subDiv1 {
+  grid-row: 1;
+  padding: 7px;
+}
+
+.subDiv1 input {
+  width: 200px;
+  height: 35px;
+  border: none;
+  background-color: white;
+  border-radius: 16px;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding-left: 10px;
+}
+
+.subDiv2 {
+  grid-row: 2;
+  padding: 7px;
+}
+
+.subDiv2 input {
+  width: 200px;
+  height: 35px;
+  border: none;
+  background-color: white;
+  border-radius: 16px;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding-left: 10px;
+}
+
+.subDiv3 {
+  grid-row: 3;
+  padding: 7px;
+}
+
+.subDiv3 input {
+  width: 200px;
+  height: 35px;
+  border: none;
+  background-color: #5995fd;
+  border-radius: 16px;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0 10px;
+  color: white;
+  transition: 0.5s;
+}
+
+.subDiv3 input:hover {
+  background-color: #4d84e2;
+}
+
+/* .btn {
+  width: 150px;
+  background-color: #5995fd;
+  border: none;
+  outline: none;
+  height: 40px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #4d84e2;
+} */
