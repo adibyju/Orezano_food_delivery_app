@@ -52,7 +52,7 @@ input {
 .inputField {
   display: inline-block;
   width: calc(100%-8rem);
-  border: 2px solid #ff8128;
+  border: 2px solid #fc8019;
   background-color: white;
   padding: 3px;
   border-radius: 16px;
@@ -68,7 +68,7 @@ input {
 
 .searchIcon {
   padding: 3px;
-  color: #5995fd;
+  color: #fc8019;
 }
 
 @media (max-width: 600px) {

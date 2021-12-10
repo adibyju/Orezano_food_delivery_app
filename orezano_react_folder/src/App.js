@@ -14,8 +14,8 @@ function App() {
       {/* <OrderSum /> */}
       {/* <Header/> */}
       {/* <Profile /> */}
-      <ResetPass />
-      {/* <YourCart />  */}
+      {/* <ResetPass /> */}
+      <YourCart /> 
     </div>
   );
 }
