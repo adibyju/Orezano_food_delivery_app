@@ -16,16 +16,15 @@ input {
   text-align: center;
 }
 
-.mainDiv1 h1 {
-  color: #ff8128;
-  font-weight: bolder;
-  font-size: 3rem;
+.orezanoLogo {
+  width: 211px;
+  height: 41px;
 }
 
 .mainDiv2 {
   padding-top: 2rem;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .mainDiv3 {
@@ -40,17 +39,24 @@ input {
 }
 
 .subDiv1 input {
-  width: 200px;
-  height: 35px;
+  width: 210px;
+  height: 20px;
   border: none;
   background-color: white;
-  border-radius: 16px;
+  border-radius: 5px;
   outline: none;
   border: none;
   line-height: 1;
   font-weight: 600;
   font-size: 0.9rem;
   padding-left: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #c4c4c4;
 }
 
 .subDiv2 {
@@ -59,17 +65,24 @@ input {
 }
 
 .subDiv2 input {
-  width: 200px;
-  height: 35px;
+  width: 210px;
+  height: 20px;
   border: none;
   background-color: white;
-  border-radius: 16px;
+  border-radius: 5px;
   outline: none;
   border: none;
   line-height: 1;
   font-weight: 600;
   font-size: 0.9rem;
   padding-left: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #c4c4c4;
 }
 
 .subDiv3 {
@@ -78,11 +91,11 @@ input {
 }
 
 .subDiv3 input {
-  width: 200px;
-  height: 35px;
+  width: 210px;
+  height: 24px;
   border: none;
   background-color: #fc8019;
-  border-radius: 16px;
+  border-radius: 5px;
   outline: none;
   border: none;
   line-height: 1;
@@ -91,6 +104,7 @@ input {
   padding: 0 10px;
   color: white;
   transition: 0.5s;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .subDiv3 input:hover {

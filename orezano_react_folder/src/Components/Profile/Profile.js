@@ -1,9 +1,11 @@
 import PCSS from './Profile.module.css'
 import profileimage from '../Images/profileimage.jpg'; 
+import NavBackButton from '../NavBackButton/NavBackButton.js'
 
 const Profile = () => {
     return (
         <div className={PCSS.container}>
+            <NavBackButton/>
             <div className={PCSS.main}>
                 <img className={PCSS.profImage} src={profileimage} alt="Profile image" />
                 <div className={PCSS.details}>

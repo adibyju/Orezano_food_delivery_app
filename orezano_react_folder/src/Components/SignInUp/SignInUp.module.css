@@ -21,7 +21,8 @@ input {
 }
 
 .appName {
-  width: 270px;
+  width: 246px;
+  height: 48px;
   margin-bottom: 30px;
   color: #fc8019;
   font-weight: bolder;

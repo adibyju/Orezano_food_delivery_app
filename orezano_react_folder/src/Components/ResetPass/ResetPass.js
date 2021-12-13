@@ -1,10 +1,14 @@
 import RPCSS from './ResetPass.module.css'
+import NavBackButton from '../NavBackButton/NavBackButton.js'
+import orezanoOrange from '../Images/orezanoorange.png';
 
 const ResetPass = () => {
     return (
         <div>
+            <NavBackButton/>
+
             <div className={RPCSS.mainDiv1}>
-                <h1>OrezanO</h1>
+                <img className={RPCSS.orezanoLogo} src={orezanoOrange} alt="OrezanO" />
             </div>
 
             <div className={RPCSS.mainDiv2}>

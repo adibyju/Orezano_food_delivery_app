@@ -13,9 +13,9 @@ function App() {
       {/* <SignInUp />  */}
       {/* <OrderSum /> */}
       {/* <Header/> */}
-      {/* <Profile /> */}
+      <Profile />
       {/* <ResetPass /> */}
-      <YourCart /> 
+      {/* <YourCart />  */}
     </div>
   );
 }

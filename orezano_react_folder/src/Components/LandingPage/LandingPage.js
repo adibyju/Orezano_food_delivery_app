@@ -1,5 +1,6 @@
 import LPCSS from './LandingPage.module.css'
 import lpImg from '../Images/landingPageImg.png';
+import orezanoWhite from '../Images/orezanowhite.png';
 import $ from 'jquery';
 
 const LandingPage = () => {
@@ -11,7 +12,7 @@ const LandingPage = () => {
     return (
         <div id="lp" className={LPCSS.landingPage}>
             <div className={LPCSS.lpDiv1}>
-                <p className={LPCSS.Orezano}>OrezanO</p>
+                <img src={orezanoWhite} className={LPCSS.Orezano} alt="OrezanO" />
                 <p>For College Students<br></br>Made in India</p>
             </div>
             <div className={LPCSS.lpDiv2}>

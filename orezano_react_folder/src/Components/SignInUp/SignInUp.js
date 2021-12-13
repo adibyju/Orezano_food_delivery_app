@@ -3,6 +3,7 @@ import SIUCSS from './SignInUp.module.css' // SignInUp CSS
 // import logo from '../logo.svg';
 // import register from '../register.svg';
 import logo from '../Images/logo.png';
+import orezanoOrange from '../Images/orezanoorange.png';
 import LandingPage from '../LandingPage/LandingPage.js'
 
 const SignInUp = () => {
@@ -23,7 +24,7 @@ const SignInUp = () => {
         <div className={SIUCSS['forms-container']}>
           <div className={SIUCSS['signin-signup']}>
             <form action="#" className={SIUCSS['sign-in-form']}>
-              <h1 className={SIUCSS.appName}>OrezanO</h1>
+            <img src={orezanoOrange} className={SIUCSS.appName} alt="OrezanO" />
               {/* <img src={logo} class={SIUCSS.logo1} alt="" /> */}
               <h2 className={SIUCSS.title}>Sign in</h2>
               <div className={SIUCSS['input-field']}>
@@ -43,7 +44,7 @@ const SignInUp = () => {
               </div> */}
             </form>
             <form action="#" className={SIUCSS['sign-up-form']}>
-            <h1 className={SIUCSS.appName}>OrezanO</h1>
+            <img src={orezanoOrange} className={SIUCSS.appName} alt="OrezanO" />
               {/* <img src={logo} class={SIUCSS.logo2} alt="" /> */}
               <h2 className={SIUCSS.title}>Sign up</h2>
               {/* <div className={SIUCSS['input-field']}>
