@@ -6,7 +6,7 @@ const Profile = () => {
     return (
         <div className={PCSS.container}>
             <NavBackButton/>
-            <div className={PCSS.main}>
+            {/* <div className={PCSS.main}>
                 <img className={PCSS.profImage} src={profileimage} alt="Profile image" />
                 <div className={PCSS.details}>
                     <div className={PCSS.details1}>
@@ -28,7 +28,7 @@ const Profile = () => {
             </div>
             <div className={PCSS.resetPassContainer}>
                 <a href="#">Change password</a>
-            </div>            
+            </div>             */}
         </div>
     )
 }
