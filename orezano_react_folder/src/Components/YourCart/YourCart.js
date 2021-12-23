@@ -4,7 +4,7 @@ import YourCartCard from '../YourCartCard/YourCartCard.js'
 const YourCart = () => {
     return (
         <div>
-            <div className={`justify-content-center ${YCCSS.title}`}>
+            {/* <div className={`justify-content-center ${YCCSS.title}`}>
                 <h2 className={YCCSS.heading}>Your Cart</h2>
                 <hr className={YCCSS.sep} />
             </div>
@@ -53,7 +53,7 @@ const YourCart = () => {
                         <div className={YCCSS.three}><span className={YCCSS.placeOrd}>Place Order<i className={`fas fa-angle-right ${YCCSS.arrow}`}></i></span></div>
                     </div>
                 </button>
-            </div>
+            </div> */}
         </div>
     )
 }
