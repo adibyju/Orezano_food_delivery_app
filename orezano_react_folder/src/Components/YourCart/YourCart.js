@@ -14,7 +14,6 @@ const YourCart = () => {
             <YourCartCard />
             <YourCartCard />
             <YourCartCard />
-            {/* <YourCartCard/> */}
 
             <div className={YCCSS.detailsDiv}>
                 <h4>Your Details</h4>

@@ -15,9 +15,9 @@ function App() {
       {/* <MainScreen/> */}
       {/* <OrderSum /> */}
       {/* <Header/> */}
-      <Profile />
+      {/* <Profile /> */}
       {/* <ResetPass /> */}
-      {/* <YourCart />  */}
+      <YourCart /> 
     </div>
   );
 }
